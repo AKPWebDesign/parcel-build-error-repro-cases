@@ -1,0 +1,14 @@
+{
+  "name": "nightly",
+  "version": "1.0.0",
+  "main": "dist/index.html",
+  "author": "Austin Peterson <austin@akpwebdesign.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.270"
+  }
+}
